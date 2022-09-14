@@ -14,14 +14,7 @@ const bookingsRoute = require('./routes/bookingsRoute')
 app.use("/api/cars/", require("./routes/carsRoute"));
 app.use("/api/users/", require("./routes/usersRoute"));
 app.use("/api/bookings/", require("./routes/bookingsRoute"));
-// app.use(
-//   cors({
-//     credentials: true,
-//     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-//     allowedHeaders: ['Content-Type', 'Authorization'],
-//     origin: ['http://localhost:3000', 'https://strong-zabaione-96e33f.netlify.app'], // whatever ports you used in frontend
-//   })
-// );
+app.use(cors());
 
 //----------deployment-----------------
 
