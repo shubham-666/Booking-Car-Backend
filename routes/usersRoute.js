@@ -9,7 +9,7 @@ router.post("/login", async(req, res) => {
 
       try {
           const user = await User.findOne({username , password})
-          if(user) {
+          if(user) {    
               res.send(user)
           }
           else{

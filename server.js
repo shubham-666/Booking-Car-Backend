@@ -14,9 +14,11 @@ const bookingsRoute = require('./routes/bookingsRoute')
 app.use("/api/cars/", require("./routes/carsRoute"));
 app.use("/api/users/", require("./routes/usersRoute"));
 app.use("/api/bookings/", require("./routes/bookingsRoute"));
-app.use(cors());
+app.use(cors({
+  origin: "https://booking-cars.netlify.app", // restrict calls to those this address
+}));
 
-//----------deployment-----------------
+//----------deployment----------------- 
 
 // __dirname = path.resolve();
 
