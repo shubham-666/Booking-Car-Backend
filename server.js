@@ -3,6 +3,7 @@ const app = express();
 const Car = require('./models/carModel');
 const port = process.env.PORT || 5000;
 const dbConnection = require('./db');
+var cors = require('cors')
 app.use(express.json());
 const path = require("path");
 const usersRoute = require('./routes/usersRoute')
