@@ -3,6 +3,6 @@ This is a Full Stack (MERN) car rental Application with admin panel & ant design
 Node JS for Runtime environment , Express JS for Backend Routing and Mongo DB for Database
 
 
-Heroku-link: https://mern-athifcars-rental-app.herokuapp.com/ <br>
+Heroku-link: [Live](https://booking-cars.netlify.app/) <br>
 
-mongodb+srv://shubham:shubham@cluster0.p7ax7wh.mongodb.net/car_Book?retryWrites=true&w=majority
+
